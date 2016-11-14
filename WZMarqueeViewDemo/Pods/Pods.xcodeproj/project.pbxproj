@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F9C1D1349B93141AF569FAE705DC497 /* Pods-WZMarqueeViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB377E6CB27B40DF1B4FF8729AC5A60 /* Pods-WZMarqueeViewDemo-dummy.m */; };
+		367BC847D12A4A7952FA69874DC503F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		71EFD6403A33B862EAA907E9034A5485 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CB0DE747FA8B550B2FEC140D74A0F2FA /* WZMarqueeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 311B8102F2845DD94807294AE26F1CE9 /* WZMarqueeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9E0397C7FF05FBA73FF08EF6E350F21 /* Pods-WZMarqueeViewDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F82D05B9415D6A3AC9EE36D62A65D7 /* Pods-WZMarqueeViewDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F43DB936DF2634EC79327E871A9A146B /* WZMarqueeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B31B2440F204EFD00D996C35CBE6A72 /* WZMarqueeView-dummy.m */; };
+		FFE7C74E7AF590CC91CF3AE1F1CE1CB4 /* WZMarqueeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C4819AAA60C0F50DC696F803607A1F /* WZMarqueeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E78A420CE65502C67888A7995EBFBCA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2344FE6C1C253AB19ED1DE00F980F82;
+			remoteInfo = WZMarqueeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02547C6F3851EEA41B95445F48AEE471 /* Pods-WZMarqueeViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZMarqueeViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		095D5017E9728AE70FBDCA6F6EE0B40A /* Pods-WZMarqueeViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZMarqueeViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		148E43701F21395170563DCA2E6A1FB1 /* WZMarqueeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZMarqueeView.xcconfig; sourceTree = "<group>"; };
+		20CA6C10ABCED6602CB879B005A9BD23 /* Pods-WZMarqueeViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZMarqueeViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		25D864A77CECBA6D3408F40078A4F622 /* Pods-WZMarqueeViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WZMarqueeViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		311B8102F2845DD94807294AE26F1CE9 /* WZMarqueeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZMarqueeView-umbrella.h"; sourceTree = "<group>"; };
+		3FB28A584691E055603B5FF514C93F52 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B31B2440F204EFD00D996C35CBE6A72 /* WZMarqueeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WZMarqueeView-dummy.m"; sourceTree = "<group>"; };
+		5C4D27237E9AC3348D72A627D367CE40 /* Pods-WZMarqueeViewDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WZMarqueeViewDemo.modulemap"; sourceTree = "<group>"; };
+		6C05B5E5C1B596F4D1762C132F88E8E5 /* Pods-WZMarqueeViewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WZMarqueeViewDemo-frameworks.sh"; sourceTree = "<group>"; };
+		79F9CA9A88D8DC7F544333036E83367D /* WZMarqueeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WZMarqueeView.framework; path = WZMarqueeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EE361185790DBC7B258E20EC92D2E21 /* Pods_WZMarqueeViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WZMarqueeViewDemo.framework; path = "Pods-WZMarqueeViewDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA93D5C7D49B4797B486B47F3F5A1DBB /* WZMarqueeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WZMarqueeView.modulemap; sourceTree = "<group>"; };
+		C0F82D05B9415D6A3AC9EE36D62A65D7 /* Pods-WZMarqueeViewDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WZMarqueeViewDemo-umbrella.h"; sourceTree = "<group>"; };
+		CAB377E6CB27B40DF1B4FF8729AC5A60 /* Pods-WZMarqueeViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WZMarqueeViewDemo-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D02E83730F0C960840CE53042789F5B2 /* WZMarqueeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZMarqueeView-prefix.pch"; sourceTree = "<group>"; };
+		E29CC590B9AD5487F4E222E4F9D1FE98 /* Pods-WZMarqueeViewDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WZMarqueeViewDemo-resources.sh"; sourceTree = "<group>"; };
+		F5C4819AAA60C0F50DC696F803607A1F /* WZMarqueeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WZMarqueeView.swift; path = WZMarqueeView/WZMarqueeView.swift; sourceTree = "<group>"; };
+		FAEE34568C8F31D00B6B8E1FC62886E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70B65AB4E297403ABD794E561010B2AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71EFD6403A33B862EAA907E9034A5485 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6FB9FA0724510CEBAE7B8B506D8E61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367BC847D12A4A7952FA69874DC503F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00ECC844CDE0DB1AB71BAC315C924B63 /* WZMarqueeView */ = {
+			isa = PBXGroup;
+			children = (
+				F5C4819AAA60C0F50DC696F803607A1F /* WZMarqueeView.swift */,
+				430F4FCEC39C2F504F1C3B771CDDE743 /* Support Files */,
+			);
+			name = WZMarqueeView;
+			path = WZMarqueeView;
+			sourceTree = "<group>";
+		};
+		11FF355B95C3AE361F59CE188A472982 /* Pods-WZMarqueeViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FAEE34568C8F31D00B6B8E1FC62886E4 /* Info.plist */,
+				5C4D27237E9AC3348D72A627D367CE40 /* Pods-WZMarqueeViewDemo.modulemap */,
+				25D864A77CECBA6D3408F40078A4F622 /* Pods-WZMarqueeViewDemo-acknowledgements.markdown */,
+				02547C6F3851EEA41B95445F48AEE471 /* Pods-WZMarqueeViewDemo-acknowledgements.plist */,
+				CAB377E6CB27B40DF1B4FF8729AC5A60 /* Pods-WZMarqueeViewDemo-dummy.m */,
+				6C05B5E5C1B596F4D1762C132F88E8E5 /* Pods-WZMarqueeViewDemo-frameworks.sh */,
+				E29CC590B9AD5487F4E222E4F9D1FE98 /* Pods-WZMarqueeViewDemo-resources.sh */,
+				C0F82D05B9415D6A3AC9EE36D62A65D7 /* Pods-WZMarqueeViewDemo-umbrella.h */,
+				095D5017E9728AE70FBDCA6F6EE0B40A /* Pods-WZMarqueeViewDemo.debug.xcconfig */,
+				20CA6C10ABCED6602CB879B005A9BD23 /* Pods-WZMarqueeViewDemo.release.xcconfig */,
+			);
+			name = "Pods-WZMarqueeViewDemo";
+			path = "Target Support Files/Pods-WZMarqueeViewDemo";
+			sourceTree = "<group>";
+		};
+		430F4FCEC39C2F504F1C3B771CDDE743 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FB28A584691E055603B5FF514C93F52 /* Info.plist */,
+				AA93D5C7D49B4797B486B47F3F5A1DBB /* WZMarqueeView.modulemap */,
+				148E43701F21395170563DCA2E6A1FB1 /* WZMarqueeView.xcconfig */,
+				5B31B2440F204EFD00D996C35CBE6A72 /* WZMarqueeView-dummy.m */,
+				D02E83730F0C960840CE53042789F5B2 /* WZMarqueeView-prefix.pch */,
+				311B8102F2845DD94807294AE26F1CE9 /* WZMarqueeView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WZMarqueeView";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A825AA398AF6C023E33B54716279B023 /* Pods */,
+				AD788393EDAED489FAD073DE432CC1CB /* Products */,
+				FABBAAD067FA57F48192EBABD13F3E75 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A825AA398AF6C023E33B54716279B023 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00ECC844CDE0DB1AB71BAC315C924B63 /* WZMarqueeView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD788393EDAED489FAD073DE432CC1CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EE361185790DBC7B258E20EC92D2E21 /* Pods_WZMarqueeViewDemo.framework */,
+				79F9CA9A88D8DC7F544333036E83367D /* WZMarqueeView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FABBAAD067FA57F48192EBABD13F3E75 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11FF355B95C3AE361F59CE188A472982 /* Pods-WZMarqueeViewDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		33FA3AFB040FA40ABA7B397A6E6195DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0DE747FA8B550B2FEC140D74A0F2FA /* WZMarqueeView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA41E3023D0E755A131239EB78C56710 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E0397C7FF05FBA73FF08EF6E350F21 /* Pods-WZMarqueeViewDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A4F14239A90B7F8ED66BC61A0A31B01D /* Pods-WZMarqueeViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 477D76AA7EE8FA5BADFB5418D7CFFA66 /* Build configuration list for PBXNativeTarget "Pods-WZMarqueeViewDemo" */;
+			buildPhases = (
+				D2D0A50546B7B53AD54ECF784CF0B50C /* Sources */,
+				CD6FB9FA0724510CEBAE7B8B506D8E61 /* Frameworks */,
+				AA41E3023D0E755A131239EB78C56710 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA0706109DC69F0E835B33B803DB7217 /* PBXTargetDependency */,
+			);
+			name = "Pods-WZMarqueeViewDemo";
+			productName = "Pods-WZMarqueeViewDemo";
+			productReference = 9EE361185790DBC7B258E20EC92D2E21 /* Pods_WZMarqueeViewDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2344FE6C1C253AB19ED1DE00F980F82 /* WZMarqueeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4C31E57030DD5697DEEC1DB14137494 /* Build configuration list for PBXNativeTarget "WZMarqueeView" */;
+			buildPhases = (
+				FD4FC07A6785D3E66744AE3917CB4C1E /* Sources */,
+				70B65AB4E297403ABD794E561010B2AC /* Frameworks */,
+				33FA3AFB040FA40ABA7B397A6E6195DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZMarqueeView;
+			productName = WZMarqueeView;
+			productReference = 79F9CA9A88D8DC7F544333036E83367D /* WZMarqueeView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AD788393EDAED489FAD073DE432CC1CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4F14239A90B7F8ED66BC61A0A31B01D /* Pods-WZMarqueeViewDemo */,
+				C2344FE6C1C253AB19ED1DE00F980F82 /* WZMarqueeView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2D0A50546B7B53AD54ECF784CF0B50C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9C1D1349B93141AF569FAE705DC497 /* Pods-WZMarqueeViewDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4FC07A6785D3E66744AE3917CB4C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43DB936DF2634EC79327E871A9A146B /* WZMarqueeView-dummy.m in Sources */,
+				FFE7C74E7AF590CC91CF3AE1F1CE1CB4 /* WZMarqueeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA0706109DC69F0E835B33B803DB7217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WZMarqueeView;
+			target = C2344FE6C1C253AB19ED1DE00F980F82 /* WZMarqueeView */;
+			targetProxy = E78A420CE65502C67888A7995EBFBCA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		484EFC2AEEE1B2912F853F09DA74A314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20CA6C10ABCED6602CB879B005A9BD23 /* Pods-WZMarqueeViewDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WZMarqueeViewDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WZMarqueeViewDemo/Pods-WZMarqueeViewDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WZMarqueeViewDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		715E3CC07456E1AEC4369282C9276E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 095D5017E9728AE70FBDCA6F6EE0B40A /* Pods-WZMarqueeViewDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WZMarqueeViewDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WZMarqueeViewDemo/Pods-WZMarqueeViewDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WZMarqueeViewDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C95D12ADCBC0C2786F21AEE45419D680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 148E43701F21395170563DCA2E6A1FB1 /* WZMarqueeView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WZMarqueeView/WZMarqueeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WZMarqueeView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WZMarqueeView/WZMarqueeView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WZMarqueeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DAEF59E13337FED75FD89EAEB5FF8066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 148E43701F21395170563DCA2E6A1FB1 /* WZMarqueeView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WZMarqueeView/WZMarqueeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WZMarqueeView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WZMarqueeView/WZMarqueeView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WZMarqueeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		477D76AA7EE8FA5BADFB5418D7CFFA66 /* Build configuration list for PBXNativeTarget "Pods-WZMarqueeViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715E3CC07456E1AEC4369282C9276E78 /* Debug */,
+				484EFC2AEEE1B2912F853F09DA74A314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4C31E57030DD5697DEEC1DB14137494 /* Build configuration list for PBXNativeTarget "WZMarqueeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAEF59E13337FED75FD89EAEB5FF8066 /* Debug */,
+				C95D12ADCBC0C2786F21AEE45419D680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module WZMarqueeView {
+  umbrella header "WZMarqueeView-umbrella.h"
+
+  export *
+  module * { export * }
+}

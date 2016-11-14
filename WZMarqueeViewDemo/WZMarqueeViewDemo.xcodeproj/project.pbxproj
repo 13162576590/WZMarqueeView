@@ -14,6 +14,7 @@
 		4F9D556A1DD9F64100AF9FDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9D55681DD9F64100AF9FDA /* LaunchScreen.storyboard */; };
 		4F9D55751DD9F64100AF9FDA /* WZMarqueeViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9D55741DD9F64100AF9FDA /* WZMarqueeViewDemoTests.swift */; };
 		4F9D55801DD9F64100AF9FDA /* WZMarqueeViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9D557F1DD9F64100AF9FDA /* WZMarqueeViewDemoUITests.swift */; };
+		ED88F6EBA04D7043350691BB /* Pods_WZMarqueeViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2105B5A71727743C2EFFEDD9 /* Pods_WZMarqueeViewDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2105B5A71727743C2EFFEDD9 /* Pods_WZMarqueeViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZMarqueeViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		403B834CD2909D061475E883 /* Pods-WZMarqueeViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZMarqueeViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WZMarqueeViewDemo/Pods-WZMarqueeViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		4F9D555C1DD9F64100AF9FDA /* WZMarqueeViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZMarqueeViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9D555F1DD9F64100AF9FDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F9D55611DD9F64100AF9FDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		4F9D557B1DD9F64100AF9FDA /* WZMarqueeViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZMarqueeViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9D557F1DD9F64100AF9FDA /* WZMarqueeViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WZMarqueeViewDemoUITests.swift; sourceTree = "<group>"; };
 		4F9D55811DD9F64100AF9FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C388E0170E09D64812860434 /* Pods-WZMarqueeViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZMarqueeViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WZMarqueeViewDemo/Pods-WZMarqueeViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED88F6EBA04D7043350691BB /* Pods_WZMarqueeViewDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32111EDA77D4AAC3F6410A0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C388E0170E09D64812860434 /* Pods-WZMarqueeViewDemo.debug.xcconfig */,
+				403B834CD2909D061475E883 /* Pods-WZMarqueeViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4F9D55531DD9F64100AF9FDA = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +95,8 @@
 				4F9D55731DD9F64100AF9FDA /* WZMarqueeViewDemoTests */,
 				4F9D557E1DD9F64100AF9FDA /* WZMarqueeViewDemoUITests */,
 				4F9D555D1DD9F64100AF9FDA /* Products */,
+				32111EDA77D4AAC3F6410A0C /* Pods */,
+				A61FF9DDC285E87EC881E7D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +141,14 @@
 			path = WZMarqueeViewDemoUITests;
 			sourceTree = "<group>";
 		};
+		A61FF9DDC285E87EC881E7D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2105B5A71727743C2EFFEDD9 /* Pods_WZMarqueeViewDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F9D55841DD9F64100AF9FDA /* Build configuration list for PBXNativeTarget "WZMarqueeViewDemo" */;
 			buildPhases = (
+				DE76D10BF7C976EA63C3BF5D /* [CP] Check Pods Manifest.lock */,
 				4F9D55581DD9F64100AF9FDA /* Sources */,
 				4F9D55591DD9F64100AF9FDA /* Frameworks */,
 				4F9D555A1DD9F64100AF9FDA /* Resources */,
+				EF44E26CA0085AEA050B276C /* [CP] Embed Pods Frameworks */,
+				E753E148BEDC3B7FAACC72BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DE76D10BF7C976EA63C3BF5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E753E148BEDC3B7FAACC72BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WZMarqueeViewDemo/Pods-WZMarqueeViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF44E26CA0085AEA050B276C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WZMarqueeViewDemo/Pods-WZMarqueeViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4F9D55581DD9F64100AF9FDA /* Sources */ = {
@@ -408,6 +483,7 @@
 		};
 		4F9D55851DD9F64100AF9FDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C388E0170E09D64812860434 /* Pods-WZMarqueeViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WZMarqueeViewDemo/Info.plist;
@@ -420,6 +496,7 @@
 		};
 		4F9D55861DD9F64100AF9FDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 403B834CD2909D061475E883 /* Pods-WZMarqueeViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WZMarqueeViewDemo/Info.plist;

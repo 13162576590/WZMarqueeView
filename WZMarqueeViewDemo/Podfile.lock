@@ -1,0 +1,21 @@
+PODS:
+  - WZMarqueeView (1.0.0)
+
+DEPENDENCIES:
+  - WZMarqueeView (from `https://github.com/13162576590/WZMarqueeView.git`)
+
+EXTERNAL SOURCES:
+  WZMarqueeView:
+    :git: https://github.com/13162576590/WZMarqueeView.git
+
+CHECKOUT OPTIONS:
+  WZMarqueeView:
+    :commit: 3c61c6b2a84490e63f91b9536c35a64f20e52188
+    :git: https://github.com/13162576590/WZMarqueeView.git
+
+SPEC CHECKSUMS:
+  WZMarqueeView: 54542e567055b78f045a9580e9bb6b4c869ad714
+
+PODFILE CHECKSUM: 5458a826093b0acf65c93e15b07565d70e1885c7
+
+COCOAPODS: 1.1.1
